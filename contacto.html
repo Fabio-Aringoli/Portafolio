@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="./style/mobile.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+    (function(){
+    emailjs.init("Fx7rG9WvtfX8qw2QC");
+})();
+</script>
+    <title>Contacto</title>
+</head>
+<body>
+
+    <header id="mainheader">
+        <nav id="navbar" class="nav-home">
+            <div class="container">
+                <a href="index.html" class="logo"><img src="./img/letra-f.png" alt="Letra f logo"></a>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="sobremi.html">Sobre mi</a></li>
+                    <li><a href="portafolio.html">portafolio</a></li>
+                    <li><a class="current" href="contacto.html">Contácto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div id="contacto">
+        <div class="container">
+            <h2>Contacto</h2>
+            <div class="formulario-contacto">
+                <h5>Hablemos</h5>
+                <form action="https://formsubmit.co/devaringoli@gmail.com" method="POST">
+                    <div class="grupo-formulario">
+                        <label for="name">Nombre</label>
+                        <input placeholder="Nombre" required type="text" name="nombre" id="from_name" class="control-formulario">
+                    </div>
+                    <div class="grupo-formulario">
+                        <label for="email">Email</label>
+                        <input placeholder="Email" required type="email" name="email" id="email_id" class="control-formulario">
+                    </div>
+                    <div class="grupo-formulario">
+                        <label for="message">Mensaje</label>
+                        <textarea required class="control-formulario" name="message" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <button class="btn btn-dark">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer id="mainfooter" class="footer-home">
+        <p>Mí <a href="https://www.instagram.com/chinoaringoli/" target="_blank">Instagram</a>.</p>
+        <p>República Argentina</p>
+        <p>☆☆☆</p>
+    </footer>
+</body>
+</html>

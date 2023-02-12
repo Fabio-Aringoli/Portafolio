@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+/* Clases utilitarias */
+.display-1{
+    font-size: 2rem;
+}
+
+
+/* Navbar */
+.navbar-home{
+    height: 10%;
+}
+
+/* ShowCase */
+#showcase{
+    height: 100%;
+    padding: 50px 0 20px 0;
+}
+
+.showcase-row{
+flex-wrap: wrap;
+}
+
+.showcase-row-title{
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+/* sobre mi */
+#sobre-mi{
+    padding: 50px 0;
+    text-align: center;
+}
+
+#sobre-mi h2{
+    padding-bottom: 30px;
+}
+
+.sobre-mi-row{
+    flex-wrap: wrap;
+}
+
+.sobre-mi-row-image{
+    height: 500px;
+    padding-right: 90px;
+}
+
+.sobre-mi-row-image img{
+    height: auto;
+    width: 100%;
+    padding-right: 10px;
+    padding-bottom: 30px;
+}
+
+#sobre-mi hr{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/* Habilidades */
+#habilidades{
+    padding: 50px 0;
+    text-align: center;
+}
+
+#habilidades h2{
+    padding-bottom: 30px;
+}
+
+.habilidades-row-left-image,
+.habilidades-row-right-image{
+    width: 50%;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.habilidades-row-left-image img,
+.habilidades-row-right-image img{
+    height: 60px;
+}
+
+.habilidades-row-left-text h4,
+.habilidades-row-right-text h4{
+    font-size: 16px;
+}
+
+.habilidades-row-left-text p,
+.habilidades-row-right-text p{
+    text-align: left;
+}
+
+/* Portafolio*/
+
+#portafolio{
+    padding: 50px 0;
+    text-align: center;
+}
+
+#portafolio h2{
+    padding-bottom: 30px;
+}
+
+.portafolio-row{
+    flex-wrap: wrap;
+}
+
+/* Contacto */
+#contacto{
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contacto h2{
+    padding-bottom: 30px;
+}
+
+.formulario-contacto{
+    width: 100%;
+}
+
+/* footer */
+.footer-home{
+    height: 10%;
+}
+
+footer p a{
+    border-radius:50%;
+    background: rgb(231, 78, 78);
+    padding: 6px;
+}
