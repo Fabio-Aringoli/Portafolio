@@ -61,7 +61,7 @@ p{
 }
 
 .display-1{
-    font-size: 3.5rem;
+    font-size: 4.5rem;
 }
 
 .btn{
@@ -150,6 +150,7 @@ form .control-formulario{
     text-decoration: underline;
 }
 
+/*Showcase*/
 #showcase{
     height: 80vh;
     background:#fffbf4;
@@ -183,7 +184,6 @@ height: 400px;
 }
 
 /* sobre mi */
-
 #sobre-mi{
     background:#fffbf4;
     padding: 90px 0;
@@ -208,7 +208,6 @@ height: 400px;
 }
 
 /* Habilidades */
-
 #habilidades{
     padding: 90px 0;
 }
@@ -241,7 +240,6 @@ height: 400px;
 }
 
 /* Portafolio*/
-
 #portafolio{
     padding: 90px 0;
     background:#fffbf4;
@@ -263,12 +261,6 @@ height: 400px;
 
 .portafolio-row-box img{
     width: 100%;
-}
-
-.portafolio-row-box p{
-    text-align: center;
-    padding: 20px;
-    margin-top: 0;
 }
 
 /* Contacto */
@@ -303,7 +295,14 @@ height: 400px;
 }
 
 #mainfooter{
-    background: #fffbf4;
     text-align: center;
     padding: 30px;
+}
+
+footer p a img{
+    transition: linear .7s ;
+}
+
+footer p a img:hover{
+    transform: scale(1.1) ;
 }
