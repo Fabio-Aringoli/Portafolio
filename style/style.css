@@ -259,10 +259,39 @@ height: 400px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
+.portafolio-row-box p{
+    text-align: center;
+}
+
 .portafolio-row-box img{
     width: 100%;
 }
+/*Span's*/
+.proyecto-span{
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    background: #000;
+}
 
+.comercio-span{
+    padding: 5px;
+    border-radius: 10px;
+    background: lightgoldenrodyellow;
+}
+
+.span-proyecto{
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.span-tatuajes{
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    background: #358BBC;
+}
 /* Contacto */
 #contacto{
     padding: 90px 0;
