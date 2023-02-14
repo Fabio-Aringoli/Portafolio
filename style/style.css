@@ -73,13 +73,13 @@ p{
     border-radius: 4px;
 }
 
-.btn-dark{
+#button{
     background: lightgrey;
     border: none;
     color: #000;
 }
 
-.btn-dark:hover{
+#button:hover{
     background: #000;
     border: 1px solid #fff;
     color: #fffbf4;
