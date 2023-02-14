@@ -7,15 +7,12 @@
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" media="screen and (max-width:768px)" href="./style/mobile.css">
     <link rel="icon" href="./img/icono.portfolio.png">
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-</script>
-<script type="text/javascript">
-    (function(){
-    emailjs.init("Fx7rG9WvtfX8qw2QC");
-})();
-</script>
     <title>Contact</title>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+    emailjs.init('Fx7rG9WvtfX8qw2QC')
+</script>
 </head>
 <body>
 
@@ -37,7 +34,7 @@
             <h2>Contact</h2>
             <div class="formulario-contacto">
                 <h5>Contact</h5>
-                <form action="https://formsubmit.co/devaringoli@gmail.com" method="POST">
+                <form id="form" action="https://formsubmit.co/devaringoli@gmail.com" method="POST">
                     <div class="grupo-formulario">
                         <label for="name">Name</label>
                         <input placeholder="Name" required type="text" name="nombre" id="from_name" class="control-formulario">
@@ -50,7 +47,7 @@
                         <label for="message">Message</label>
                         <textarea required class="control-formulario" name="message" id="" cols="30" rows="10"></textarea>
                     </div>
-                    <button class="btn btn-dark">Send</button>
+                    <button id="button" class="btn btn-dark" value="Send Email">Send</button>
                 </form>
             </div>
         </div>
@@ -60,5 +57,6 @@
         <p>República Argentina</p>
         <p>☆☆☆</p>
     </footer>
+    <script src="./JS/Script.js"></script>
 </body>
 </html>
