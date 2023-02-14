@@ -332,6 +332,10 @@ footer p a img{
     transition: linear .7s ;
 }
 
+.a-row{
+    display: flex;
+}
+
 footer p a img:hover{
     transform: scale(1.1) ;
 }
