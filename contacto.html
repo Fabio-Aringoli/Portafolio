@@ -34,21 +34,22 @@
             <h2>Contact</h2>
             <div class="formulario-contacto">
                 <h5>Contact</h5>
-                <form id="form" action="https://formsubmit.co/devaringoli@gmail.com" method="POST">
+                <form id="form">
                     <div class="grupo-formulario">
-                        <label for="name">Name</label>
-                        <input placeholder="Name" required type="text" name="nombre" id="from_name" class="control-formulario">
+                    <label for="from_name">from_name</label>
+                    <input type="text" name="from_name" id="from_name">
                     </div>
                     <div class="grupo-formulario">
-                        <label for="email">Email</label>
-                        <input placeholder="Email" required type="email" name="email" id="email_id" class="control-formulario">
+                    <label for="email_id">email_id</label>
+                    <input type="text" name="email_id" id="email_id">
                     </div>
                     <div class="grupo-formulario">
-                        <label for="message">Message</label>
-                        <textarea required class="control-formulario" name="message" id="" cols="30" rows="10"></textarea>
+                    <label for="message">message</label>
+                    <input type="text" name="message" id="message">
                     </div>
-                    <button id="button" class="btn btn-dark" value="Send Email">Send</button>
+                    <input type="submit" id="button" class="btn btn-dark" value="Send Email" >
                 </form>
+                
             </div>
         </div>
     </div>
