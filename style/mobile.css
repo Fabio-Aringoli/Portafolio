@@ -123,9 +123,3 @@ flex-wrap: wrap;
 .footer-home{
     height: 10%;
 }
-
-footer p a{
-    border-radius:50%;
-    background: rgb(231, 78, 78);
-    padding: 6px;
-}
