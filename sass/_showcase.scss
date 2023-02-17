@@ -1,0 +1,31 @@
+#showcase{
+    height: 80vh;
+    background: $colorprincipal;
+    padding: 150px 0;
+
+    h1{
+        line-height: 1em;
+    }
+
+    .title-outline{
+        color: $colorsecundario;
+        -webkit-text-stroke: 3px #000;
+    }
+}
+
+.showcase-row{
+    display: flex;
+}
+
+.showcase-row-title{
+    padding-top: 70px;
+}
+
+.showcase-row-image{
+    display: block;
+    margin: 0 auto;
+
+    img{
+        height: 400px;
+        }
+}

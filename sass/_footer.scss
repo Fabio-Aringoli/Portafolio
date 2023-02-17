@@ -1,0 +1,16 @@
+
+.footer-home{
+    height: 10vh;
+}
+
+#mainfooter{
+    text-align: center;
+    padding: 30px;
+}
+
+footer p a img{
+    transition: linear .7s ;
+                &:hover{
+                    transform: scale(1.1) ;
+                }
+}

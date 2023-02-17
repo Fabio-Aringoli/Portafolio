@@ -1,0 +1,56 @@
+.container{
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 20px;
+    
+    .display-1{
+    font-size: 4.5rem;
+    }
+
+    .large{
+    font-size: 1.25rem;
+    }
+
+    #button{
+        background: $colorprincipal;
+        border: none;
+        color: #000;
+                &:hover{
+                    background: #000;
+                    border: 1px solid $colorsecundario;
+                    color: $colorprincipal;
+                }
+                
+                .btn{
+                    display: inline-block;
+                    font-size: 15px;
+                    padding: 12px 23px;
+                    font-weight: bold;
+                    letter-spacing: 1px;
+                    border-radius: 4px;
+                }
+    }
+}
+
+form {
+
+    label{
+        display: inline-block;
+        margin-bottom: 6px;
+        font-weight: 300;
+    }
+
+    .grupo-formulario{
+        margin-bottom: 16px;
+    }
+
+    .control-formulario{
+    display: block;
+    width: 100%;
+    padding: 7px 12px;
+    line-height: 1.5;
+    background: $colorprincipal;
+    border-radius: 4px;
+    }
+}
